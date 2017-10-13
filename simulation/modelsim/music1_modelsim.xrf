@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ALEX.DON.SCOFIELD/Desktop/music/music1.bdf
+source_file = 1, C:/Users/ALEX.DON.SCOFIELD/Desktop/music/music.vhd
+source_file = 1, C:/Users/ALEX.DON.SCOFIELD/Desktop/music/db/music1.cbx.xml
+source_file = 1, d:/altera/13.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/altera/13.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/altera/13.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/altera/13.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = music1
+instance = comp, \pin_name2~I\, pin_name2, music1, 1
+instance = comp, \pin_name1~I\, pin_name1, music1, 1

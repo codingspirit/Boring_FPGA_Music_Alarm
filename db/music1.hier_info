@@ -1,0 +1,19 @@
+|music1
+pin_name2 <= music:inst.spk
+pin_name1 => music:inst.inclk
+
+
+|music1|music:inst
+inclk => clk.CLK
+inclk => cnt1[0].CLK
+inclk => cnt1[1].CLK
+inclk => cnt1[2].CLK
+inclk => cnt1[3].CLK
+inclk => cnt1[4].CLK
+enable => tone_index[3].ENA
+enable => tone_index[2].ENA
+enable => tone_index[1].ENA
+enable => tone_index[0].ENA
+spk <= spk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
